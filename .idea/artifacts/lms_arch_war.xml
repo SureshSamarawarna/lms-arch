@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="lms-arch:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>lms-arch</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="lms#api.war">
+      <element id="artifact" artifact-name="lms-arch:war exploded" />
+    </root>
+  </artifact>
+</component>

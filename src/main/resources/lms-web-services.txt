@@ -1,0 +1,29 @@
+Members
+	load All Members - GET /members
+	load Members by Page - GET /members?size={size}&page={page}
+	search Members - GET /members?q={query}
+	search Members (paginated) - GET /members?q={query}&size={size}&page={page}
+
+	get Member Details - GET /members/{member-id}
+
+	delete an Exiting Member - DELETE /members/{member-id}
+	create a New Member - POST /members
+	update Member Details - PATCH /members/{member-id}
+
+Books
+	load All Books - GET /books
+	load Books by Page - GET /books?page={page}&size={size}
+	search Books - GET /books?q={query}
+	search Books by Page - GET /books?page={page}&size={size}&q={query}
+
+	get Book Details - GET/books/{isbn}
+
+	add a new Book - POST /books
+	update Book Details - PATCH /books/{isbn}
+
+IssueNotes
+	create a New Issue Note - POST /issue-notes
+
+ReturnNotes
+	create a New Return Note - POST /return-notes
+
